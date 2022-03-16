@@ -35,3 +35,9 @@ variable "cpu" {
 variable "memory" {
   description = "The amount (in MiB) of memory used by the task"
 }
+
+variable "custom_role_arn" {
+  description = "custom role arn"
+  default     = ""
+}
+
