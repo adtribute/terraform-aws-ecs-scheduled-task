@@ -38,6 +38,5 @@ variable "memory" {
 
 variable "custom_role_arn" {
   description = "custom role arn"
-  default     = ""
 }
 
